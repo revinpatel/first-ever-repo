@@ -22,7 +22,7 @@
           </div>
       </div>
       <div class="col-4 slogan">
-        Handing out Inspiration On Demand
+        Handing out Inspiration On Demand Since 2019
       </div>
       <div class="col-5 links">
         <%= link_to 'Contribute', '#' %>
@@ -34,6 +34,24 @@
 
     <br class="clear" />
 
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <%= link_to "This isn't enough, I need more...", "#", class: 'next-quote' %>
+          </div>
+          <div class="col-6 footer-blurb">
+            Proudly created by <a href="[YOUR_PORTFOLIO_URL]">Revin Patel</a><br />
+            Want to make Earth better? <a href="[SOME_URL]">Take A Leap</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
+
