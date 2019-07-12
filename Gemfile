@@ -65,6 +65,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #Added by Revin Patel
 
 gem 'bootstrap', '~> 4.3.1'
+gem 'simple_form'
 gem 'sprockets-rails', '~> 3.2'
 gem 'jquery-rails'
 gem 'popper_js', '~> 1.9', '>= 1.9.9'
